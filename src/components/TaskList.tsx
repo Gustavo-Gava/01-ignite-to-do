@@ -15,6 +15,10 @@ export function TaskList() {
   const [newTaskTitle, setNewTaskTitle] = useState("")
 
   function handleCreateNewTask() {
+    if (newTaskTitle.trim() == "") {
+      alert("Digite algo no input!")
+    }
+
     setTasks([
       ...tasks,
       { id: Math.random(), title: newTaskTitle, isComplete: false },
