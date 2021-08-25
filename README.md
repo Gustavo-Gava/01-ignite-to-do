@@ -18,7 +18,7 @@
 
 ```
  # Clone esse repositório
- $ git clone https://github.com/gustavo-gava/to-do
+ $ git clone https://github.com/gustavo-gava/01-ignite-to-do
  
  # Instale as dependências
  $ yarn install
