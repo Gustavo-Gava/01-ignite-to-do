@@ -17,6 +17,7 @@ export function TaskList() {
   function handleCreateNewTask() {
     if (newTaskTitle.trim() == "") {
       alert("Digite algo no input!")
+      return
     }
 
     setTasks([
